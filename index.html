@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Painel de Leads</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div><b>PAINEL DE LEADS</b><small>Monitoramento automático</small></div>
+  <div class="actions"><span id="connection">Conectando...</span><button id="notify">🔔 Ativar notificações</button></div>
+</header>
+<main>
+  <section class="summary">
+    <div><small>Leads parados</small><strong id="stoppedCount">0</strong></div>
+    <div><small>Leads atendidos</small><strong id="attendedCount">0</strong></div>
+    <div><small>Última atualização</small><strong id="lastUpdate">--:--:--</strong></div>
+  </section>
+  <nav>
+    <button class="tab active" data-tab="parados">Leads Parados <span id="tabStopped">0</span></button>
+    <button class="tab" data-tab="atendidos">Leads Atendidos <span id="tabAttended">0</span></button>
+  </nav>
+  <section id="parados" class="content active"><div id="stoppedList"></div></section>
+  <section id="atendidos" class="content"><div id="attendedList"></div></section>
+</main>
+<div id="toast"></div>
+<script src="app.js"></script>
+</body>
+</html>
