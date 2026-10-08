@@ -1,0 +1,1 @@
+Coloque nesta pasta o print da tela principal do painel antigo. Depois que a interface do novo painel for ajustada, este arquivo de referência poderá ser removido.
