@@ -1,4 +1,4 @@
-const API_URL="https://script.google.com/macros/s/AKfycbyJREouzyp6eufA2d_mleGNm2s1AAV9JVAYoetw2TnLnApHkr30R_bivOccl1zJs3Ak/exec";
+const API_URL="https://script.google.com/macros/s/AKfycby9AwNJ_JKHKGT6eWb94xc3Xq-lDZnjNHJQIU1sZYc48DUETnDfJrujEdkHDd1gHVIg/exec";
 const INTERVALO=5000;
 let primeiraCarga=true;
 let idsConhecidos=new Set();
